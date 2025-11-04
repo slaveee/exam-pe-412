@@ -1,4 +1,3 @@
-// api.ts
 export type WeatherData = {
   name: string;
   main: {
@@ -10,7 +9,7 @@ export type WeatherData = {
     main: string;
     description: string;
   }[];
-  dt: number; // время последнего обновления в UNIX
+  dt: number; 
 };
 
 export const getWeatherData = async (city: string): Promise<WeatherData | null> => {

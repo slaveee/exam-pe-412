@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useState, useEffect } from "react";
 import { SafeAreaView, StyleSheet, View, ActivityIndicator, Text } from "react-native";
 import CitySelector from "./components/CitySelector";
